@@ -1,0 +1,302 @@
+html{
+	overflow-x:hidden;
+}
+body {
+	background :url(images/bg-wpress.jpg) center top;
+	width      : 100% ;
+	height     : 100% ;
+	padding    : 1px  ;
+	
+}
+
+div.topheader{
+	width            : 982px             ;
+	height           : 54px             ;
+	background-color : #F2F2F2          ;
+	margin: 0 auto !important;
+}
+
+div.topheader .search{
+	width        : 267px             ;
+	height       : 41px              ;
+	margin-top   : 7px               ;
+	float        : left             ;
+	margin-left  : 10px              ;
+}
+div.topmenu{
+	position:relative ;
+	width  : 400px    ;
+	height : 50px     ;
+	margin-right:251px;
+	float :right
+}
+
+div.topmenu ul{
+	position : absolute ;
+	bottom   : 0        ;
+	left     : 240px    ;
+	width	 :	400px
+}
+
+div.topmenu li{
+	float           : right            ;
+	list-style-type : none            ;
+}
+
+div.topmenu li>a{
+	padding         : 4px 17px                     ;
+	font-size       : 18px                         ;
+	font-family     : Arial, Helvetica, sans-serif ;
+	color           : #666                         ;
+	text-decoration : none                         ;
+}
+
+div.topmenu li>a:hover{
+	color         : #BCD91A           ;
+	border-bottom : #BCD91A solid 1px ;
+	cursor        : pointer           ;
+}
+
+div.logo{
+	
+}
+
+div.logo .image{
+	background:url(images/header.jpg);
+	width             : 982px          ;
+	height            : 144px          ;
+	background-repeat : no-repeat      ;
+	margin            : 0 auto         ;
+}
+
+div.container{
+	width       : 980px           ;
+	min-height  : 1000px          ;
+	border:1px solid #f2f2f2 ;
+}
+
+div.menu{
+	width             : 100%          ;
+	height            : 59px          ;
+	background-color  : #F2F2F2       ;
+	border-radius     : 10px 10px 0 0 ;
+	padding           : 1px           ;
+}
+
+div.menu ul{
+
+}
+
+div.menu li{
+	list-style-type : none ;
+	margin-right    : 10px ;
+	float:right
+}
+
+div.menu ul> li>a{
+	float           : left                         ;
+	font-size       : 22px                         ;
+	font-weight     : bold                         ;
+	font-family     : Arial, Helvetica, sans-serif ;
+	padding         : 15px 35px                    ;
+	text-decoration : none                         ;
+	color           : #555                         ;
+}
+
+div.menu ul> li>a:hover{
+	background-color : #666          ;
+	color            : #EEE          ;
+	border-radius    : 10px 10px 0 0 ;
+}
+
+div.accslides{
+	width      : 980px ;
+}
+
+div.accslides .train{
+	width  : 700px  ;
+	margin : 0 auto ;
+}
+
+div.accslides .train > div{
+	width     : 150px           ;
+	overflow  : hidden          ;
+	float     : left            ;
+}
+
+div.footer1{
+	margin-top    : 6px            ;
+    background    : #F3F1F1        ;
+	padding       : 20px           ;
+	text-align    : center         ;
+	color         : #393434        ;
+	font-size     : 13px           ;
+	width         : 940px          ;
+	margin        : 0 auto         ;
+	margin-bottom : 20px           ;
+}
+
+div.footer1 a{
+	color       : #666                         ;
+	font-size   : 17px                         ;
+	font-family : Arial, Helvetica, sans-serif ;
+}
+div.footer2 {
+	width:982px;
+	margin:0 auto !important;
+	font-weight : bold             ;
+	text-align:center
+}
+
+div.sidebar{
+	position : relative ;
+}
+
+
+div.sidelittle{
+	position: absolute;
+	width        : 374px          ;
+	height       : 553px          ;
+	border      : 1px solid gray ;
+	right        : 0              ;
+	top          : 1px           ;
+	margin-right : 3px            ;
+}
+
+div.post{
+	width       : 598px            ;
+	min-height      : 273px;
+	padding     : 1px              ;
+	border      : 1px solid gray ;
+	margin-top:1px
+}
+.note {
+	text-align:justify;
+	direction:rtl;
+	font-family:tahoma;
+	
+}
+.note-single{
+	min-height:50px;
+		text-align:justify;
+	direction:rtl;
+	font-family:tahoma;
+	line-height:25px;
+}
+div.post .pic{
+	width            : 144px          ;
+	height           : 134px          ;
+	margin-left      : auto           ;
+	margin-right     : 6px            ;
+	margin-top       : 4px            ;
+	float            : right          ;
+}
+
+div.post .text1{
+	width      : 446px             ;
+	height     : 132px             ;
+	margin-top : 4px              ;
+
+}
+
+div.post .text1 h1{
+	text-align: center;
+	font-family: tahoma;
+	font-size: 20px;
+	padding-top: 59px;
+}
+
+div.post .text2{
+	width      : 587px            ;
+	min-height     : 116px            ;
+	margin-left: 6px              ;
+	margin-top : 8px              ;
+	position   : relative         ;
+}
+
+div.post .note>a{
+	font-size : 18px       ;
+	word-wrap : break-word ;
+}
+
+div.post .continue a{
+	font-size       : 20px                        ;
+	text-decoration : none                        ;
+	color           : black                       ;
+	font-family     : Verdana, Geneva, sans-serif ;
+	
+}
+
+div.post .continue{
+	width    : 87px           ;
+	height   : 28px           ;
+	position : absolute       ;
+	right    : 3px            ;
+	bottom   : 3px            ;
+}
+
+div.post .continue a:hover{
+	color : #BCD91A ;
+}
+.newsletter{
+	height:150px;
+}
+.newsletter h5{
+	text-align:right;
+	font-family:tahoma;
+	font-size:13px;
+	padding:10px 10px 0px 0px;
+}
+.newsletter table{
+	direction:rtl;
+	text-align:right;
+	padding:8px;
+	margin:15px;
+	float:right;
+	width: 345px;
+	background:#f7c59d;
+	border:3px solid #f7c59d;
+	border-radius:5px
+}
+.newsletter td{
+	padding:5px;
+}
+/*search*/
+.screen-reader-text{
+	display:none
+}
+.widget{
+	padding-top: 20px;
+}
+.text1-page{
+	width      : 591px             ;
+	height     : 51px             ;
+	margin-top : 4px              ;
+	text-align:right
+}
+.post-page{
+	width       : 598px            ;
+	min-height      : 551px;
+	padding     : 1px              ;
+	border      : 1px solid gray ;
+	margin-top:1px
+}
+.note-single p{
+	padding:10px
+}
+.post-contact{
+	width       : 598px            ;
+	min-height      : 551px;
+	padding     : 1px              ;
+	border      : 1px solid gray ;
+	margin-top:1px
+}
+.form{
+	margin:10px auto 0px !important;
+	width:300px;
+	background-color:#ebe8e8;
+	padding:10px 10px 10px 0px
+}
+.form td{
+	padding:5px
+}
